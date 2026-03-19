@@ -9,7 +9,7 @@ export default function Navbar() {
           <Image src="/aunl-logo.png" alt="AUNL" width={32} height={40} className="h-9 w-auto" />
           <div>
             <div className="text-lg font-black tracking-tight leading-none text-[#F0EDE8] uppercase">RoWning</div>
-            <div className="text-[10px] text-[#555] tracking-widest uppercase font-body">by Alexis · AUNL Lyon</div>
+            <div className="text-[10px] text-[#888] tracking-widest uppercase font-body">by Alexis · AUNL Lyon</div>
           </div>
         </Link>
 
@@ -20,7 +20,7 @@ export default function Navbar() {
             { href: '/#tarifs', label: 'Tarifs' },
             { href: '/#contact', label: 'Contact' },
           ].map((l) => (
-            <Link key={l.href} href={l.href} className="text-sm font-body text-[#666] hover:text-[#F0EDE8] transition-colors tracking-wide">
+            <Link key={l.href} href={l.href} className="text-sm font-body text-[#AAAAAA] hover:text-[#F0EDE8] transition-colors tracking-wide">
               {l.label}
             </Link>
           ))}

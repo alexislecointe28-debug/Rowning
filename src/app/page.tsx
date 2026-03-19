@@ -33,7 +33,7 @@ export default function HomePage() {
             </h1>
 
             <div className="flex flex-wrap items-end gap-12">
-              <p className="font-body text-lg text-[#888] leading-relaxed max-w-sm">
+              <p className="font-body text-lg text-[#B0ADA8] leading-relaxed max-w-sm">
                 1 heure. 10 personnes. Un effort réel encadré par un préparateur physique et rameur de compétition. À Lyon.
               </p>
               <div className="flex gap-4">
@@ -56,7 +56,7 @@ export default function HomePage() {
               ].map(([n, l]) => (
                 <div key={n}>
                   <div className="text-4xl font-black text-brand tracking-tight">{n}</div>
-                  <div className="font-body text-xs text-[#555] mt-1 tracking-wide">{l}</div>
+                  <div className="font-body text-xs text-[#888580] mt-1 tracking-wide">{l}</div>
                 </div>
               ))}
             </div>
@@ -71,10 +71,10 @@ export default function HomePage() {
               <h2 className="text-5xl font-black uppercase leading-tight mb-6">
                 Un effort vrai.<br /><span className="text-brand">Pas du yoga.</span>
               </h2>
-              <p className="font-body text-[#777] leading-relaxed mb-8">
+              <p className="font-body text-[#A8A5A0] leading-relaxed mb-8">
                 Le RoWning c&apos;est trois circuits de 12 minutes combinant mouvements sur et autour du rameur. Cardio, force, coordination. Encadré par un coach préparateur physique et rameur de compétition Masters Elite.
               </p>
-              <p className="font-body text-[#777] leading-relaxed">
+              <p className="font-body text-[#A8A5A0] leading-relaxed">
                 Pas besoin de savoir ramer. L&apos;ergomètre est accessible à tous les niveaux dès la première séance.
               </p>
             </div>
@@ -89,7 +89,7 @@ export default function HomePage() {
                   <div className="text-brand font-black text-sm uppercase tracking-wide min-w-[90px]">{tag}</div>
                   <div>
                     <div className="font-black text-base uppercase mb-1">{title}</div>
-                    <div className="font-body text-sm text-[#666]">{desc}</div>
+                    <div className="font-body text-sm text-[#9A9590]">{desc}</div>
                   </div>
                 </div>
               ))}
@@ -124,7 +124,7 @@ export default function HomePage() {
                 <h2 className="text-5xl font-black uppercase leading-tight mb-6">
                   Vos équipes méritent<br /><span className="text-brand">mieux que le yoga.</span>
                 </h2>
-                <p className="font-body text-[#777] leading-relaxed mb-8">
+                <p className="font-body text-[#A8A5A0] leading-relaxed mb-8">
                   Un créneau dédié le midi, rien que pour votre équipe. Une heure de circuit training sur ergo — vos collaborateurs reviennent concentrés, pas endormis.
                 </p>
                 <div className="flex flex-col gap-2 mb-10">
@@ -143,12 +143,12 @@ export default function HomePage() {
                 </div>
                 <div className="border border-[#1a1a1a] p-6">
                   <div className="text-5xl font-black tracking-tight mb-1">200€</div>
-                  <div className="font-body text-sm text-[#555]">par mois · créneau dédié · 4 séances</div>
+                  <div className="font-body text-sm text-[#888580]">par mois · créneau dédié · 4 séances</div>
                 </div>
               </div>
 
               <div className="flex flex-col gap-3">
-                <p className="text-xs font-black text-[#444] uppercase tracking-widest mb-2">Ce que vous obtenez</p>
+                <p className="text-xs font-black text-[#777472] uppercase tracking-widest mb-2">Ce que vous obtenez</p>
                 {[
                   ['📸', 'Galerie photos privée', 'Chaque séance immortalisée. Vos équipes repartent avec des souvenirs concrets.'],
                   ['📊', 'Stats & progression', 'Watts moyens, participation, évolution mensuelle. Chiffré, pas du ressenti.'],
@@ -159,7 +159,7 @@ export default function HomePage() {
                     <span className="text-2xl">{icon}</span>
                     <div>
                       <div className="font-black text-sm uppercase mb-1">{title}</div>
-                      <div className="font-body text-xs text-[#666] leading-relaxed">{desc}</div>
+                      <div className="font-body text-xs text-[#9A9590] leading-relaxed">{desc}</div>
                     </div>
                   </div>
                 ))}
@@ -183,7 +183,7 @@ export default function HomePage() {
                   <div className="text-[80px] font-black text-[#1a1a1a] leading-none absolute top-4 right-6 select-none">{n}</div>
                   <div className="relative">
                     <div className="font-black text-xl uppercase mb-3">{title}</div>
-                    <div className="font-body text-sm text-[#666] leading-relaxed">{desc}</div>
+                    <div className="font-body text-sm text-[#9A9590] leading-relaxed">{desc}</div>
                   </div>
                 </div>
               ))}
@@ -199,7 +199,7 @@ export default function HomePage() {
               <h2 className="text-5xl font-black uppercase leading-tight mb-6">
                 Prenons<br /><span className="text-brand">30 minutes.</span>
               </h2>
-              <p className="font-body text-[#777] leading-relaxed mb-8">
+              <p className="font-body text-[#A8A5A0] leading-relaxed mb-8">
                 Un échange rapide pour comprendre vos besoins et vous présenter concrètement l&apos;offre. Séance d&apos;inauguration offerte pour votre équipe.
               </p>
               <div className="flex flex-col gap-3">
@@ -209,7 +209,7 @@ export default function HomePage() {
                   ['Label', 'RoWning® · FFA'],
                 ].map(([label, value]) => (
                   <div key={label} className="flex gap-4 items-center border border-[#1a1a1a] px-5 py-3">
-                    <span className="text-xs font-black text-[#444] uppercase tracking-widest min-w-[50px]">{label}</span>
+                    <span className="text-xs font-black text-[#777472] uppercase tracking-widest min-w-[50px]">{label}</span>
                     <span className="font-body text-sm text-[#999]">{value}</span>
                   </div>
                 ))}
@@ -222,8 +222,8 @@ export default function HomePage() {
         {/* FOOTER */}
         <footer className="border-t border-[#111] px-6 py-6">
           <div className="max-w-6xl mx-auto flex justify-between items-center">
-            <span className="font-body text-xs text-[#333]">© 2025 Alexis — RoWning AUNL Lyon</span>
-            <span className="font-body text-xs text-[#333]">Labellisé RoWning® · FFA</span>
+            <span className="font-body text-xs text-[#666360]">© 2025 Alexis — RoWning AUNL Lyon</span>
+            <span className="font-body text-xs text-[#666360]">Labellisé RoWning® · FFA</span>
           </div>
         </footer>
 
@@ -237,30 +237,30 @@ function ContactForm() {
     <form className="flex flex-col gap-4" action="mailto:alexis@aunl-rowning.fr">
       <div className="grid grid-cols-2 gap-3">
         <div>
-          <label className="text-xs font-black text-[#444] uppercase tracking-widest mb-1.5 block">Prénom</label>
+          <label className="text-xs font-black text-[#777472] uppercase tracking-widest mb-1.5 block">Prénom</label>
           <input type="text" placeholder="Marie" className="w-full bg-[#111] border border-[#222] px-4 py-3 text-sm font-body text-[#F0EDE8] placeholder-[#444] focus:outline-none focus:border-brand" />
         </div>
         <div>
-          <label className="text-xs font-black text-[#444] uppercase tracking-widest mb-1.5 block">Nom</label>
+          <label className="text-xs font-black text-[#777472] uppercase tracking-widest mb-1.5 block">Nom</label>
           <input type="text" placeholder="Dupont" className="w-full bg-[#111] border border-[#222] px-4 py-3 text-sm font-body text-[#F0EDE8] placeholder-[#444] focus:outline-none focus:border-brand" />
         </div>
       </div>
       <div>
-        <label className="text-xs font-black text-[#444] uppercase tracking-widest mb-1.5 block">Entreprise</label>
+        <label className="text-xs font-black text-[#777472] uppercase tracking-widest mb-1.5 block">Entreprise</label>
         <input type="text" placeholder="Acme Corp" className="w-full bg-[#111] border border-[#222] px-4 py-3 text-sm font-body text-[#F0EDE8] placeholder-[#444] focus:outline-none focus:border-brand" />
       </div>
       <div>
-        <label className="text-xs font-black text-[#444] uppercase tracking-widest mb-1.5 block">Email</label>
+        <label className="text-xs font-black text-[#777472] uppercase tracking-widest mb-1.5 block">Email</label>
         <input type="email" placeholder="marie@acme.fr" className="w-full bg-[#111] border border-[#222] px-4 py-3 text-sm font-body text-[#F0EDE8] placeholder-[#444] focus:outline-none focus:border-brand" />
       </div>
       <div>
-        <label className="text-xs font-black text-[#444] uppercase tracking-widest mb-1.5 block">Message</label>
+        <label className="text-xs font-black text-[#777472] uppercase tracking-widest mb-1.5 block">Message</label>
         <textarea rows={3} placeholder="On a une équipe de 8 personnes, on cherche un créneau le mardi midi..." className="w-full bg-[#111] border border-[#222] px-4 py-3 text-sm font-body text-[#F0EDE8] placeholder-[#444] focus:outline-none focus:border-brand resize-none" />
       </div>
       <button type="submit" className="w-full bg-brand text-white font-black text-sm uppercase tracking-widest py-4 hover:bg-brand-700 transition-colors">
         Envoyer →
       </button>
-      <p className="text-xs font-body text-[#444] text-center">Réponse sous 24h · Séance inauguration offerte</p>
+      <p className="text-xs font-body text-[#777472] text-center">Réponse sous 24h · Séance inauguration offerte</p>
     </form>
   )
 }
