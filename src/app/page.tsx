@@ -191,6 +191,19 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* AUNL CLUB */}
+        <section className="relative h-64 md:h-80 overflow-hidden border-y border-[#111]">
+          <Image src="/photo-aunl-club.jpg" alt="Aviron Union Nautique de Lyon — bord de Saône" fill className="object-cover object-center" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A]/90 via-[#0A0A0A]/50 to-transparent" />
+          <div className="absolute inset-0 flex items-center px-10">
+            <div>
+              <div className="text-xs font-black text-brand uppercase tracking-widest mb-2">Le lieu</div>
+              <h3 className="text-3xl font-black uppercase text-[#F0EDE8] mb-1">Bord de Saône, Lyon</h3>
+              <p className="font-body text-sm text-[#999]">Aviron Union Nautique de Lyon · Champion de France</p>
+            </div>
+          </div>
+        </section>
+
         {/* CONTACT */}
         <section id="contact" className="py-24 px-6 border-t border-[#111] bg-[#0D0D0D]">
           <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
@@ -206,6 +219,7 @@ export default function HomePage() {
                 {[
                   ['Email', 'alexis@aunl-rowning.fr'],
                   ['Lieu', 'AUNL — bord de Saône, Lyon'],
+                  ['Club', "Champion de France d'Aviron"],
                   ['Label', 'RoWning® · FFA'],
                 ].map(([label, value]) => (
                   <div key={label} className="flex gap-4 items-center border border-[#1a1a1a] px-5 py-3">
