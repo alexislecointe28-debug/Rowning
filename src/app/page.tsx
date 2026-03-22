@@ -199,7 +199,7 @@ export default function HomePage() {
             <div>
               <div className="text-xs font-black text-brand uppercase tracking-widest mb-2">Le lieu</div>
               <h3 className="text-3xl font-black uppercase text-[#F0EDE8] mb-1">Bord de Saône, Lyon</h3>
-              <p className="font-body text-sm text-[#999]">Aviron Union Nautique de Lyon · Champion de France</p>
+              <p className="font-body text-sm text-[#999]">59 quai Clémenceau, Caluire-et-Cuire</p>
             </div>
           </div>
         </section>
@@ -218,8 +218,8 @@ export default function HomePage() {
               <div className="flex flex-col gap-3">
                 {[
                   ['Email', 'alexis@aunl-rowning.fr'],
-                  ['Lieu', 'AUNL — bord de Saône, Lyon'],
-                  ['Club', "Champion de France d'Aviron"],
+                  ['Lieu', '59 quai Clémenceau, Caluire-et-Cuire'],
+                  
                   ['Label', 'RoWning® · FFA'],
                 ].map(([label, value]) => (
                   <div key={label} className="flex gap-4 items-center border border-[#1a1a1a] px-5 py-3">
